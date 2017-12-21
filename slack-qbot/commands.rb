@@ -1,0 +1,8 @@
+require './slack-qbot/commands/about'
+require './slack-qbot/commands/help'
+require './slack-qbot/commands/push'
+require './slack-qbot/commands/list'
+require './slack-qbot/commands/cancel'
+require './slack-qbot/commands/create'
+require './slack-qbot/commands/delete'
+require './slack-qbot/commands/remote'

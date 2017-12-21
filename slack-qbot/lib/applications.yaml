@@ -1,0 +1,30 @@
+- !ruby/object:SlackQBot::Application
+  name: 'GAC'
+  repository: "sage_one_advanced"
+  environments:
+    - !ruby/object:SlackQBot::Environment
+      name: 'UAT'
+      remote: "git remote to push GAC to UAT"
+    - !ruby/object:SlackQBot::Environment
+      name: 'PP'
+      remote: "git remote to push GAC to PP"
+- !ruby/object:SlackQBot::Application
+  name: 'GAddons'
+  repository: "sage_one_addons"
+  environments:
+    - !ruby/object:SlackQBot::Environment
+      name: 'UAT'
+      remote: "git remote to push GADD to UAT"
+    - !ruby/object:SlackQBot::Environment
+      name: 'PP'
+      remote: "git remote to push GADD to PP"
+- !ruby/object:SlackQBot::Application
+  name: 'MS1_UK'
+  repository: "mysageone_uk"
+  environments:
+    - !ruby/object:SlackQBot::Environment
+      name: 'UAT'
+      remote: "git remote to push MS1 UK to UAT"
+    - !ruby/object:SlackQBot::Environment
+      name: 'PP'
+      remote: "git remote to push MS1 UK to PP"

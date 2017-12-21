@@ -3,14 +3,18 @@ source 'http://rubygems.org'
 gem 'slack-ruby-bot'
 gem 'puma'
 gem 'sinatra'
+gem 'foreman'
 gem 'dotenv'
-# gem 'celluloid-io'
 gem 'faye-websocket'
 gem 'sqlite3'
+gem 'rubysl-shellwords'
+gem 'redis'
 
 group :development, :test do
   gem 'rake'
-  gem 'foreman'
+  gem 'pry'
+  gem 'pry-remote'
+  gem 'pry-stack_explorer'
 end
 
 group :test do
