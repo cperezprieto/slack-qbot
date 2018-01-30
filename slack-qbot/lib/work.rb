@@ -11,8 +11,7 @@ module SlackQBot
       @environment = environment
       @branch = branch
 
-      status ||= :pending
-      @status = status
+      @status ||= :pending
     end
 
     def from_hash(h)

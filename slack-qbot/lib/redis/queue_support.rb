@@ -14,6 +14,11 @@ module SlackQBot
       @redis.rpush(queue_key(queue_name), work.to_json)
     end
 
+    def self.update_work(work)
+      queue_name = find_work_queue(work.work_id)
+      @redis.lset(queue_key(queue_name), 0, work.to_json)
+    end
+
     def self.pop(queue_name)
       Work.new.from_hash(JSON.parse(@redis.lpop(queue_key(queue_name)), create_additions: true))
     end

@@ -5,36 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="964a4d0b-e167-4d7c-8b1f-625d8332ea41" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/clean_docker.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slack-qbot/commands/remote.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slack-qbot/lib/queue.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slack-qbot/lib/redis/application_support.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slack-qbot/lib/redis/queue_support.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slack-qbot/lib/work.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/local/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slack-qbot/work.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/slack-qbot/bot.rb" afterPath="$PROJECT_DIR$/slack-qbot/lib/bot.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/cppri.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/cppri.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/slack-qbot.iml" afterPath="$PROJECT_DIR$/.idea/slack-qbot.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slack-qbot/lib/workers/queue_worker.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker/git/Dockerfile" afterPath="$PROJECT_DIR$/docker/git/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot.rb" afterPath="$PROJECT_DIR$/slack-qbot.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/commands.rb" afterPath="$PROJECT_DIR$/slack-qbot/commands.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/commands/cancel.rb" afterPath="$PROJECT_DIR$/slack-qbot/commands/cancel.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/commands/create.rb" afterPath="$PROJECT_DIR$/slack-qbot/commands/create.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/commands/delete.rb" afterPath="$PROJECT_DIR$/slack-qbot/commands/delete.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/commands/help.rb" afterPath="$PROJECT_DIR$/slack-qbot/commands/help.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/commands/list.rb" afterPath="$PROJECT_DIR$/slack-qbot/commands/list.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/commands/push.rb" afterPath="$PROJECT_DIR$/slack-qbot/commands/push.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/lib/application.rb" afterPath="$PROJECT_DIR$/slack-qbot/lib/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/lib/environment.rb" afterPath="$PROJECT_DIR$/slack-qbot/lib/environment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/lib/repository.rb" afterPath="$PROJECT_DIR$/slack-qbot/lib/repository.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/lib/bot.rb" afterPath="$PROJECT_DIR$/slack-qbot/lib/bot.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/lib/redis/queue_support.rb" afterPath="$PROJECT_DIR$/slack-qbot/lib/redis/queue_support.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slack-qbot/lib/work.rb" afterPath="$PROJECT_DIR$/slack-qbot/lib/work.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,8 +32,8 @@
       <file leaf-file-name="queue_support.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slack-qbot/lib/redis/queue_support.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="-442">
+              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -65,28 +42,88 @@
       <file leaf-file-name="application_support.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slack-qbot/lib/redis/application_support.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="59" lean-forward="false" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+            <state relative-caret-position="-391">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="remote.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/slack-qbot/commands/remote.rb">
+      <file leaf-file-name="work.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slack-qbot/lib/work.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="166">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="help.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slack-qbot/commands/help.rb">
+      <file leaf-file-name="queue_worker.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slack-qbot/lib/workers/queue_worker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="77" lean-forward="false" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+            <state relative-caret-position="149">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repository.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slack-qbot/lib/repository.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slack-qbot/lib/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="push.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slack-qbot/commands/push.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slack-qbot/commands/list.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applications.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slack-qbot/lib/applications.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slack-qbot/lib/environment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -107,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docker/Dockerfile" />
-        <option value="$PROJECT_DIR$/slack-qbot/version.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/lib/git.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/available_environment.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/available_application.rb" />
@@ -132,11 +167,9 @@
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sidekiq.ru" />
-        <option value="$PROJECT_DIR$/slack-qbot/lib/repository.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/lib/workers/hard_worker.rb" />
         <option value="$PROJECT_DIR$/scripts/clean_docker.sh" />
         <option value="$PROJECT_DIR$/slack-qbot/lib/redis/queue_accesor.rb" />
-        <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/docker/git/Dockerfile" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/slack-qbot/lib/workers/push_worker.rb" />
@@ -146,11 +179,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/slack-qbot/work.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/lib/queue.rb" />
-        <option value="$PROJECT_DIR$/slack-qbot.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/lib/environment.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/lib/application.rb" />
-        <option value="$PROJECT_DIR$/slack-qbot/lib/redis/queue_support.rb" />
-        <option value="$PROJECT_DIR$/slack-qbot/lib/bot.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/commands/push.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/commands/list.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/commands/create.rb" />
@@ -158,6 +188,13 @@
         <option value="$PROJECT_DIR$/slack-qbot/lib/redis/application_support.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/commands/help.rb" />
         <option value="$PROJECT_DIR$/slack-qbot/commands/remote.rb" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/slack-qbot.rb" />
+        <option value="$PROJECT_DIR$/slack-qbot/lib/bot.rb" />
+        <option value="$PROJECT_DIR$/slack-qbot/lib/work.rb" />
+        <option value="$PROJECT_DIR$/slack-qbot/lib/repository.rb" />
+        <option value="$PROJECT_DIR$/slack-qbot/lib/redis/queue_support.rb" />
+        <option value="$PROJECT_DIR$/slack-qbot/lib/workers/queue_worker.rb" />
       </list>
     </option>
   </component>
@@ -172,6 +209,25 @@
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="698" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Ruby</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>RubyArgCount</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,8 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,10 +294,19 @@
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="slack-qbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="slack-qbot" type="462c0819:PsiDirectoryNode" />
+              <item name="slack-qbot" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="workers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,12 +360,25 @@
               </DockerEnvVarImpl>
               <DockerEnvVarImpl>
                 <option name="name" value="SLACK_API_TOKEN" />
-                <option name="value" value="xoxb-250667866183-ZMBGhvqzr5h4YT5ez5xbY4rp" />
+                <option name="value" value="xoxb-250667866183-tR1qX4NQxGA727zAy0E9MOIf" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SSH_GITHUB_PRIVATE_KEY" />
+                <option name="value" value="-----BEGIN RSA PRIVATE KEY----- Proc-Type: 4,ENCRYPTED DEK-Info: AES-128-CBC,FD09BA9AE740BC2D8FA22E5202A8622B  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 -----END RSA PRIVATE KEY-----" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="GITHUB_USERNAME" />
+                <option name="value" value="cperezprieto" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="GITHUB_PASSWORD" />
+                <option name="value" value="Tecno123." />
               </DockerEnvVarImpl>
             </list>
           </option>
           <option name="envVarsExpanded" value="true" />
           <option name="imageTag" value="qbot:0.0.1" />
+          <option name="linksExpanded" value="true" />
           <option name="portBindings">
             <list>
               <DockerPortBindingImpl>
@@ -314,8 +390,9 @@
           </option>
           <option name="portBindingsExpanded" value="true" />
           <option name="startBrowserSettings">
-            <browser />
+            <browser start="true" />
           </option>
+          <option name="volumeBindingsExpanded" value="true" />
         </settings>
       </deployment>
     </configuration>
@@ -490,6 +567,16 @@
       <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
     </configuration>
+    <configuration name="clean_docker.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\Ruby23\bin\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/clean_docker.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="slack-qbot" />
+      <envs />
+    </configuration>
     <configuration name="foreman start" type="CommandRunConfigurationType" factoryName="Gem Command">
       <module name="slack-qbot" />
       <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -526,19 +613,21 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/slack-qbot.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Docker Deployment.Docker local Deployment" />
       <item index="1" class="java.lang.String" itemvalue="Gem Command.foreman start" />
       <item index="2" class="java.lang.String" itemvalue="Ruby.slack-qbot" />
       <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'bot_spec': slack-qbot" />
       <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'controller_spec': slack-qbot" />
       <item index="5" class="java.lang.String" itemvalue="RSpec.Run spec 'model_spec': slack-qbot" />
+      <item index="6" class="java.lang.String" itemvalue="Bash.clean_docker.sh" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'model_spec': slack-qbot" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'controller_spec': slack-qbot" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'bot_spec': slack-qbot" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Bash.clean_docker.sh" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'model_spec': slack-qbot" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'controller_spec': slack-qbot" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'bot_spec': slack-qbot" />
       </list>
     </recent_temporary>
   </component>
@@ -567,6 +656,9 @@
       <workItem from="1508435439392" duration="48057000" />
       <workItem from="1508652457104" duration="18123000" />
       <workItem from="1511598033930" duration="922000" />
+      <workItem from="1513872617088" duration="1809000" />
+      <workItem from="1513877363282" duration="1388000" />
+      <workItem from="1514020096256" duration="20975000" />
     </task>
     <servers />
   </component>
@@ -603,19 +695,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237773000" />
+    <option name="totallyTimeSpent" value="261945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32137287" sideWeight="0.76427525" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32137287" sideWeight="0.23572475" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32137287" sideWeight="0.73792094" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32137287" sideWeight="0.26207906" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30109206" sideWeight="0.48096633" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30109206" sideWeight="0.47218156" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -671,8 +763,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slack-qbot/help.rb" />
-    <entry file="file://$PROJECT_DIR$/slack-qbot/config/config.rb" />
     <entry file="file://$PROJECT_DIR$/slack-qbot/config/app_config.rb" />
     <entry file="file://$PROJECT_DIR$/slack-qbot/config/config.yaml" />
     <entry file="file://$PROJECT_DIR$/slack-qbot/view.rb" />
@@ -755,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/commands/about.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="64" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/local/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -770,13 +853,6 @@
             <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/commands.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -792,20 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/git/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -859,88 +921,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/repository.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="44" column="57" lean-forward="true" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/applications.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/redis/queue_support.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/commands/push.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="64" lean-forward="false" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/queue.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/work.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/commands/list.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slack-qbot/commands/create.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/bot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -951,26 +935,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/redis/application_support.rb">
+    <entry file="file://$PROJECT_DIR$/docker/git/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="59" lean-forward="false" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slack-qbot/commands/help.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="17">
           <caret line="35" column="77" lean-forward="false" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/bot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/commands.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/commands/about.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="64" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/queue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs23/queue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slack-qbot/commands/remote.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="376">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/work.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/redis/application_support.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/applications.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/commands/push.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/commands/list.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/redis/queue_support.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/repository.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack-qbot/lib/workers/queue_worker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -10,6 +10,7 @@ require './slack-qbot/lib/environment'
 require './slack-qbot/lib/application'
 require './slack-qbot/lib/repository'
 require './slack-qbot/lib/work'
+require './slack-qbot/lib/workers/queue_worker.rb'
 require './slack-qbot/lib/bot'
 require './slack-qbot/lib/redis/queue_support.rb'
 

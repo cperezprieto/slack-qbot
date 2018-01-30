@@ -6,5 +6,7 @@ module SlackQBot
     application_list.each do |a|
       ApplicationSupport.add_application(a)
     end
+
+    Thread.new { QueueWorker.new }
   end
 end
